@@ -1,13 +1,14 @@
+<p align="center">
+<a href="https://github.com/ahil15"><img title="Author" src="https://img.shields.io/badge/CREATOR-Nᴏᴛ Sʟᴀꜱʜᴇʀ-black.svg?style=for-the-badge&logo=github"></a>
 
 <p align="center">  
-  <a href="https://chat.whatsapp.com/EjsQvJNcFGVCSfaBEIxZm2">
-    <img alt="X-2.0" height="300" src="https://i.ibb.co/L1SGhJy/images.jpg">
-    <h1 align="center">XLICON-BOT</h1>
-    
+  <a href="https://xliconmd2.vercel.app/">
+    <img alt="X-2.0" height="300" src="https://i.ibb.co/gR09dLk/20231002-160957.jpg">
+    <h1 align="center">XLICON-BOT 2.O</h1>
   </a>
 </p>
 <p align="center">
-<a href="https://github.com/ahil15"><img title="Author" src="https://img.shields.io/badge/XLICON-BOT-black?style=for-the-badge&logo=whatsapp"></a>
+<a href="https://github.com/ahil15"><img title="Author" src="https://img.shields.io/badge/XLICON-BOT-black?style=for-the-badge&logo=twitter"></a>
 <p/>
 <p align="center">
 <a href="https://github.com/ahil15?tab=followers"><img title="Followers" src="https://img.shields.io/github/followers/ahil15?label=Followers&style=social"></a>
@@ -16,219 +17,158 @@
 <a href="https://github.com/ahil15/Xlicon-v2/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/ahil15/Xlicon-v2?label=Watching&style=social"></a>
 </p>
 
-## Notice
+#### 
+If you re-upload  anything from my ***REPOSITORY*** give me ***Credit*** Else I can Take Legal Action On You!⚠
 
-We request you to Read our full repository or u might get issues at deploying the bot...Developed by Slasher..!!
-
-## Support
-
-For our bot support, Do email [ infiniteytff@gmail.com ] or join our Whatsapp Support Group.
-
-<a href="https://chat.whatsapp.com/EjsQvJNcFGVCSfaBEIxZm2"><img alt="WhatsApp" src="https://img.shields.io/badge/-Whatsapp%20Group-lime?style=for-the-badge&logo=whatsapp&logoColor=white"/></a>
+***
 
 #### SETUP
 
 1. Fork the repo
     <br>
-<a href='https://github.com/ahil15/Xlicon-v2/fork' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/Fork Repo-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=white&color=black'/></a>
+<a href="https://github.com/ahil15/Xlicon-v2/fork"><img title="XLICON-2.0" src="https://img.shields.io/badge/FORK XLICON-2.0-h?color=black&style=for-the-badge&logo=stackshare"></a>
 
-2. Scan the QR and upload ***Creds.json*** file to your XLICON-SESSION Folder. You Have to Fork The bot to Use The Bot....( You will recieve the ***Creds.json*** on your bot number after scanning the Qr)
+2. Scan the QR and upload the `creds.json` to ***XLICON-SESSION*** Folder
     <br>
-<a href='https://replit.com/@ahil15/XLICON-Multi-Session?v=1' target="_blank"><img alt='SCAN QR' src='https://img.shields.io/badge/Scan_qr-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
+<a href='https://replit.com/@ahil15/XLICON-Multi-qr?v=1' target="_blank"><img alt='SCAN QR-1' src='https://img.shields.io/badge/Scan_qr-1-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=blue'/></a>
 
+#### DEPLOY STEPS
 
-## Installation 
-
-1.⚙️  Edit config file 
-
-- you have to change these if u want to use this bot
-
-
-- Edit your config details in your own repo like -- [`config.js`](https://github.com/ahil15/Xlicon-v2/blob/master/config.js)
+1. Fork This Repository 
+2. Update [`config.js`]
 ```js
-
 global.Owner = ["8801853262586"]; 
 global.OwnerNumber = ["8801853262586"];
 global.ownertag = ["8801853262586"];
 global.OwnerName = "Slasher";
 global.BotName = "X-2.0";
-
 ```
 
+#### DEPLOY TO HEROKU 
 
-
-.2⚙️ If You Want Autoreply/Bot Chat ⚙️
-
-- It's optional if u want to make auto reply bot like Auna10 you have to do this...
-
-Comment out/delete /* , */ the code form your Core.js line 224 and 332 in your own repo like -- [`Core.js`](https://github.com/ahil15/Xlicon-v2/blob/main/Core.js)
-```js  
-   
-   /*
-    Dm and Groups Autoreply/Bot chat
-
-   if (!isCmd && !m.isGroup){
-
-   const botreply = await axios.get(`http://api.brainshop.ai/get?bid=166512&key=5nz1Ha6nS9Zx1MfT&uid=[uid]&msg=[msg]=[${budy}]`)
-
-   txt = `${botreply.data.cnt}`
-  m.reply(txt)
-  }      
-    */
-   
-```
-
-
-
-.3 🛡️ Windows Cmd & Vs 🛡️
-
-* [`Download ffmpeg`](https://ffmpeg.org/download.html#build-windows) and set path
-* [`Download wget`](https://eternallybored.org/misc/wget/releases/) and set path
-* [`Download Node JS`](https://nodejs.org/en/download/)
-* [`Download Git`](https://git-scm.com/downloads)
-* [`Download Libwebp`](https://developers.google.com/speed/webp/download)
-```cmd
-> git clone https://github.com/ahil15/Xlicon-v2.git
-```
-```
-> cd Xlicon-v2
-```
-```
-> npm i
-```
-```
-> npm start
-```
-#### DEPLOY TO Heroku 
-
-1. Now Deploy
+1. If You don't have a account in Heroku. Create a account.
     <br>
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/ahil15/Xlicon-v2"> <img src="https://img.shields.io/badge/Heroku%20Deploy-purple?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
+<a href='https://signup.heroku.com/' target="_blank"><img alt='Heroku' src='https://img.shields.io/badge/-Create-black?style=for-the-badge&logo=heroku&logoColor=white'/></a>
 
-</br>     
+2. Now Deploy
+    <br>
+<a href='https://xlicheroku.vercel.app/deploy.html' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/-DEPLOY-black?style=for-the-badge&logo=heroku&logoColor=white'/></a>
 
-<h2 align="center"> Add This 2 Builbpacks On Heroku
+#### DEPLOY TO CODESPACE
+
+3. If You don't have a account in Codespace. Create a account.
+    <br>
+<a href='https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fcodespaces' target="_blank"><img alt='Codespaces' src='https://img.shields.io/badge/CREATE-h?color=black&style=for-the-badge&logo=visualstudiocode' width="96.35" height="28"/></a></p>
+
+4. Now Deploy
+    <br>
+<a href='https://github.com/codespaces/new' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/DEPLOY -h?color=black&style=for-the-badge&logo=visualstudiocode' width="96.35" height="28"/></a></p>
+
+#### DEPLOY TO OKTETO
+
+5. If You don't have a account in Okteto. Create a account.
+    <br>
+<a href='https://www.okteto.com/pricing/?plan=SaaS' target="_blank"><img alt='Okteto' src='https://img.shields.io/badge/CREATE-h?color=black&style=for-the-badge&logo=opera' width="96.35" height="28"/></a></p>
+
+6. Now Deploy
+    <br>
+<a href='https://xlicheroku.vercel.app/deploy-okt.html' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/DEPLOY -h?color=black&style=for-the-badge&logo=opera' width="96.35" height="28"/></a></p>
+
+#### DEPLOY TO RAILWAY
+
+7. If You don't have a account in Railway. Create a account.
+    <br>
+<a href='https://railway.app/login' target="_blank"><img alt='Railway' src='https://img.shields.io/badge/CREATE-h?color=black&style=for-the-badge&logo=railway' width="96.35" height="28"/></a></p>
+
+8. Now Deploy
+    <br>
+<a href='https://railway.app/new' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/DEPLOY -h?color=black&style=for-the-badge&logo=railway' width="96.35" height="28"/></a></p>
+
+#### DEPLOY TO MONGENIUS
+
+9. If You don't have a account in Mongenius. Create a account.
+    <br>
+<a href='https://studio.mogenius.com/user/registration' target="_blank"><img alt='Mongenius' src='https://img.shields.io/badge/CREATE-h?color=black&style=for-the-badge&logo=genius' width="96.35" height="28"/></a></p>
+
+10. Now Deploy
+    <br>
+<a href='https://railway.app/new' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/DEPLOY -h?color=black&style=for-the-badge&logo=genius' width="96.35" height="28"/></a></p>
+
+#### DEPLOY TO COOLIFY
+
+11. If You don't have a account in Coolify. Create a account.
+    <br>
+<a href='https://app.coolify.io/register' target="_blank"><img alt='Coolify' src='https://img.shields.io/badge/CREATE-h?color=black&style=for-the-badge&logo=C' width="96.35" height="28"/></a></p>
+
+12. Now Deploy
+    <br>
+<a href='https://coolify.io/' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/DEPLOY -h?color=black&style=for-the-badge&logo=C' width="96.35" height="28"/></a></p>
+
+#### DEPLOY TO RENDER
+
+13. If You don't have a account in Render. Create a account.
+    <br>
+<a href='https://dashboard.render.com/register' target="_blank"><img alt='Render' src='https://img.shields.io/badge/CREATE-h?color=black&style=for-the-badge&logo=render' width="96.35" height="28"/></a></p>
+
+14. Now Deploy
+    <br>
+<a href='https://dashboard.render.com' target="_blank"><img alt='DEPLOY' src='https://img.shields.io/badge/DEPLOY -h?color=black&style=for-the-badge&logo=render' width="96.35" height="28"/></a></p>
+
+---
+# `Guide`📕
+
+- [Full Deploy Explanation & Termux Deploy & Vps Deploy](https://github.com/ahil15/Xlicon-v2/blob/main/guide.md)
+---
+
+## ```Support Me```
+<a href='https://www.instagram.com/sla.sher_' target="_blank"><img alt='Instagram' src='https://img.shields.io/badge/CONTACT-h?color=black&style=for-the-badge&logo=instagram' width="96.35" height="28"/></a></p>
+<a href='wa.me/8801975492880' target="_blank"><img alt='Whatsapp' src='https://img.shields.io/badge/CONTACT-h?color=black&style=for-the-badge&logo=whatsapp' width="96.35" height="28"/></a></p>
+<a href='https://chat.whatsapp.com/C4ivwZKuh5bLJkqfYNPQsk' target="_blank"><img alt='Whatsapp' src='https://img.shields.io/badge/OFFICIAL-GC-h?color=black&style=for-the-badge&logo=whatsapp' width="96.35" height="28"/></a></p>
+<a href='https://www.youtube.com/@infinite9452' target="_blank"><img alt='Youtube' src='https://img.shields.io/badge/SUBSCRIBE-h?color=black&style=for-the-badge&logo=youtube' width="96.35" height="28"/></a></p>
+</p>
+
+1. **Buy Me a Coffee**: Your support will help me stay motivated and continue working on exciting projects like this one.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.buymeacoffee.com/slashernolongerlive">
+  <img src="https://i.ibb.co/KNnhcvX/bmc-button.png" alt="Buy Me Coffee" height="40" width="150" style="margin-left: 60px;">
+</a>
+
+<h2 align="center"> Star the repo if u like it🌟
 </h2>
 
-```
-https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest
-``` 
-```
-https://github.com/clhuang/heroku-buildpack-webp-binaries.git
-```
-#### DEPLOY TO Replit 
 
-1. Now Deploy
-    <br>
-<p align="center"><a href="https://repl.it/github/ahil15/Xlicon-v2"> <img src="https://img.shields.io/badge/replit%20Deploy-black?style=for-the-badge&logo=replit" width="220" height="38.45"/></a></p>
+ 
+ ## 🎯 Author 🎯
+  <div align="center">
+  
+| [![SlasherOfficial](https://github.com/ahil15.png?size=150)](https://github.com/ahil15) |
+|----|
+| [ N ᴏ ᴛ   S ʟ ᴀ ꜱ ʜ ᴇ ʀ ](https://github.com/ahil15) |
+|  Developer, Bug Fixes, Modules, updates |
 
-#### DEPLOY TO Codespaces
-
-1. Now Deploy
-    <br>
-<p align="center"><a href="https://github.com/codespaces/new"> <img src="https://img.shields.io/badge/Codespace%20Deploy-black?style=for-the-badge&logo=codespaces" width="220" height="38.45"/></a></p>
-
-#### DEPLOY TO Railway
-
-1. Now Deploy
-    <br>
-<p align="center"><a href="https://railway.app/new"> <img src="https://img.shields.io/badge/Railway%20Deploy-green?style=for-the-badge&logo=railway" width="220" height="38.45"/></a></p>
-
-#### DEPLOY TO Mongenius
-
-1. Now Deploy
-    <br>
-<p align="center"><a href="https://studio.mogenius.com/"> <img src="https://img.shields.io/badge/Mongenius%20Deploy-blue?style=for-the-badge&logo=mongenius" width="220" height="38.45"/></a></p>
-
-#### DEPLOY TO Okteto
-
-1. Now Deploy
-    <br>
-<p align="center"><a href="https://cloud.okteto.com"> <img src="https://img.shields.io/badge/Okteto%20Deploy-darkblue?style=for-the-badge&logo=okteto" width="220" height="38.45"/></a></p>
-
-<br>
-<br>
-<br>
-<br>
-     
-     
-     
-- Termux
-```js
-termux-setup-storage
-```
-```
-apt update
-```
-```
-apt upgrade
-```
-```
-pkg update && pkg upgrade
-```
-```
-pkg install bash
-```
-```
-pkg install libwebp
-```
-```
-pkg install git -y
-```
-```
-pkg install nodejs -y
-```
-```
-pkg install ffmpeg -y 
-```
-```
-pkg install wget
-```
-```
-pkg install imagemagick -y
-```
-```
-git clone https://github.com/ahil15/Xlicon-v2
-```
-```
-cd Xlicon-v2
-```
-```
-npm i
-```
-```
-npm start
-```
-
-- Command For 24/7
-```js
-npm i -g forever && forever index.js && forever save && forever logs
-```
-
-</br></br>
-<h1 align="center">  ⭐ Spacial Thanks To ⭐
-</h1>
-
-* [`🎐 Kai.!!`](https://github.com/kai0071)
-* [`🎐 AsliGuru`](https://github.com/Guru322)
-* [`🎐 SuhailTechInfo`](https://github.com/SuhailTechInfo)
-* [`🎐 SALMAN AHMAD`](https://github.com/salmanytofficial)
-
-
-
-
-
-
-</br> 
+  </div>
+  
+   
+  </br> 
 
 <h2 align="center">  Reminder
 </h2>
    
-## 
 - This bot is not made by `WhatsApp Inc.` So misusing the bot might `ban` your `WhatsApp account!`(Though your WhatsApp account can be unbanned only once.)
 - I am not responsible for banning your account.
 - Use at your own risk by keeping this warning in mind.
  
+  
+  
+   ## `Special Thanks To`
+- 1. ✨ Kai ( Bot Base )
+- 2. ✨ Abhishek ( External Modifications and upgrades )
+- 3. ✨ Guru ( Web modification and ideas )
+- 4. ✨ Diegoson ( Web Qr design and modification )
+- 5. ✨ HYNO ( web bug fixes and maintain )
+- 6. ✨ SamPandey ( web Base )
+- 7. ✨SuhailTechInfo (menu design idea )
+---------
 
 
 <h1 align="center">
@@ -238,3 +178,6 @@ npm i -g forever && forever index.js && forever save && forever logs
 <h1 align="center"> ✧ Thanks To Kai!!!✧
 </h1>
 
+---
+
+  
